@@ -4201,9 +4201,9 @@ h4.rules_text {
     padding: 10px;
 }
 .game_GTH{
-	padding: 0 70px 0 70px;
+	padding: 0 60px 0 60px;
 }
-p.promo-section__text.lead.inner_fruit 
+	p.promo-section__text.lead.inner_fruit {}
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -4230,7 +4230,7 @@ p.promo-section__text.lead.inner_fruit
 .promo-section--pb-large {
     padding-bottom: 0px !important;
 }
-}
+
 h2.payment_text_top{
 	padding-top: 20px;
 }
@@ -4239,7 +4239,7 @@ h2.payment_text_top{
     padding: 50px 15px;
 }
 .new_game_con{
-	max-width: 900px !important;
+	/*max-width: 900px !important;*/
 }
 }
 @media only screen and (max-width: 767px) {
