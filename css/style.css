@@ -3456,7 +3456,7 @@ dd {
 /* Offset
 -------------------------------------------------------*/
 .offset-top-152 {
-	margin-top: -152px; }
+	margin-top: -230px; }
 
 .offset-top-171 {
 	margin-top: -171px; }
@@ -3524,7 +3524,7 @@ dd {
 /* Section Dividers
 -------------------------------------------------------*/
 .top-divider {
-	border-top: 2px solid #bcdef6; }
+	/*border-top: 2px solid #bcdef6;*/ }
 
 .bottom-divider {
 	border-bottom: 1px solid #E8ECED; }
@@ -3715,7 +3715,7 @@ a.footel-logo img{
 
 @media only screen and (max-width: 500px) {
 	.logo-container img{
-		width: 220px;
+		width: 190px;
 	}
 	.banner_re{
 	display: none;
