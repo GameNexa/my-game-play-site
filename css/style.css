@@ -89,7 +89,9 @@ video {
 hr {
 	margin: 0;
 	border-color: #E8ECED; }
-
+.headpad{
+		padding-top: 150px;
+	}
 /*-------------------------------------------------------*/
 /* Preloader
 /*-------------------------------------------------------*/
@@ -180,6 +182,12 @@ h6 {
 	font-size: 18px; }
 
 @media only screen and (max-width: 575px) {
+	.headpad{
+		padding-top: 0px;
+	}
+	h2.logo_text {
+    font-size: 25px;
+}
 	h1 {
 		font-size: 32px; }
 	h2 {
