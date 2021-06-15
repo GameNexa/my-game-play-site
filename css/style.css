@@ -92,6 +92,10 @@ hr {
 .headpad{
 		padding-top: 150px;
 	}
+		.nav__wrap {
+
+    width: 0px;
+		}
 /*-------------------------------------------------------*/
 /* Preloader
 /*-------------------------------------------------------*/
@@ -2356,7 +2360,7 @@ figcaption {
 		.nav__holder {
 			margin-top: 15px; } }
 	.nav__wrap {
-		padding-left: 44px; }
+		padding-left: 0px; }
 	@media only screen and (min-width: 992px) {
 		.nav__container {
 			padding: 0 82px; } }
@@ -2386,8 +2390,10 @@ figcaption {
 			color: #FA6262; }
 	@media only screen and (min-width: 992px) {
 		.nav__wrap {
-			display: block !important;
-			height: auto !important; }
+    display: block !important;
+    height: auto !important;
+    width: 580px;
+		}
 		.nav__menu > li {
 			display: inline-block;
 			text-align: center; }
