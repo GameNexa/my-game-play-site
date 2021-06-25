@@ -18,6 +18,30 @@
     color: #212529;
     background-color: #ffc107;
 }
+.badge-racing {
+    color: #212529;
+    background-color:#ffc107;
+}
+.badge-action {
+    color: #212529;
+    background-color: #ff0707;
+}
+.badge-puzzle {
+    color: #212529;
+    background-color: #0798ff;
+}
+.badge-adventure {
+    color: #212529;
+    background-color: #f564f7;
+}
+.badge-strategy {
+    color: #212529;
+    background-color: #a0ff07;
+}
+.badge-arcade {
+    color: #212529;
+    background-color: #f9f109;
+}
 .badge-info {
     color: #fff;
     background-color: #17a2b8;
@@ -25,7 +49,7 @@
 .badge {
     display: inline-block;
     padding: .25em .4em;
-    font-size: 75%;
+    font-size: 95%;
     font-weight: 700;
     line-height: 1;
     text-align: center;
