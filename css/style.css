@@ -2433,7 +2433,8 @@ figcaption {
 		position: relative;
 		display: inline-flex;
 		align-items: center;
-		flex-wrap: wrap; }
+		flex-wrap: wrap;
+    float: right;}
 		.nav__menu li {
 			position: relative;
 			background-color: white
