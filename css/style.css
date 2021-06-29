@@ -1713,7 +1713,7 @@ background-color: #fff;}
 /* Testimonials
 /*-------------------------------------------------------*/
 .testimonial {
-	padding: 15px 10px;
+	padding: 15px 10px 0px 10px;
 	background-color: #fff;
 	border-radius: 5px;
 	margin-bottom: 6px;
@@ -1734,7 +1734,7 @@ background-color: #fff;}
 		font-size: 20px;
 		display: block;
 		font-weight: 700;
-		margin-bottom: 4px;
+		margin-bottom: 5px;
 		color: #333B69; 
 		text-align: center;}
 	.testimonial__company {
