@@ -7,6 +7,14 @@
         "link": "/games/rcrazy-jump/index.html",
         "description": "Jump on the platforms and avoid enemies in its path. Controlling the mouse or a touch sensor on the phone"
     },
+	{
+        "gameid": "dunk-hoop",
+        "title": "Dunk Hoop",
+        "badge": "Strategy",
+        "imagepath": "images/games/dunk-hoop.png",
+        "link": "/games/dunk-hoop/index.html",
+        "description": "Jump into hoops and avoid spikes. Compete with friends who will score more points. Beautiful vector graphics and good sound effects!"
+    },
     {
         "gameid": "dunk-hoop",
         "title": "Dunk Hoop",
