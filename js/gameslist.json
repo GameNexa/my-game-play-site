@@ -1,0 +1,162 @@
+[
+    {
+        "gameid": "Crazy-Jump",
+        "title": "Crazy Jump",
+        "badge": "Strategy",
+        "imagepath": "images/games/crazy-jump.png",
+        "link": "/games/rcrazy-jump/index.html",
+        "description": "Jump on the platforms and avoid enemies in its path. Controlling the mouse or a touch sensor on the phone"
+    },
+    {
+        "gameid": "dunk-hoop",
+        "title": "Dunk Hoop",
+        "badge": "Strategy",
+        "imagepath": "images/games/Dunk-Hoop.png",
+        "link": "/games/dunk-hoop/index.html",
+        "description": "Jump into hoops and avoid spikes. Compete with friends who will score more points. Beautiful vector graphics and good sound effects!"
+    },
+    {
+        "gameid": "road-fight",
+        "title": "Road Fight",
+        "badge": "Racing",
+        "imagepath": "images/games/roadfight.png",
+        "link": "/games/road-fight/index.html",
+        "description": "Everyone likes racing games..so here we came up with awesome racing game Road Fight  <br>  Like old classic game road fighter try not to HIT by car and collect as much fuel to get some time and clear the level in a awesome way."
+    },
+    {
+        "gameid": "rise-up",
+        "title": "Rise Up",
+        "badge": "Arcade",
+        "imagepath": "images/games/rise-up.png",
+        "link": "/games/rise-up/index.html",
+        "description": "Rise Up is a simple touch based game. You have to jump on platforms to make score. Difficulty of game increases when level up….With 100+ levels the game size is only 750kb"
+    },
+    {
+        "gameid": "ninja-action",
+        "title": "Ninja Action",
+        "badge": "Action",
+        "imagepath": "images/games/ninja-action.png",
+        "link": "/games/ninja-action/index.html",
+        "description": "Another awesome action game “Ninja Action”<br> Show your ninja skills and play this cool game. Rules are same turn on gravity shoes"
+    },
+    {
+        "gameid": "rolling-panda",
+        "title": "Rolling Panda",
+        "badge": "Strategy",
+        "imagepath": "images/games/rolling-panda.png",
+        "link": "/games/rolling-panda/index.html",
+        "description": "Tap to change platform and collect coin, magnet and other powers to make your highscore.<br>Roll The panda…tap on screen to jump the panda<br>Rolling Panda is a portrait 2d game..you have to jump the panda from going down.<br>Tap on screen to jump on poles…see arrow pointer to jump on directionIt has 3 themes after unlocking a random score everytime you restart. A New theme will be there"
+    },
+    {
+        "gameid": "guns-bottles",
+        "title": "Guns & Bottles",
+        "badge": "Action",
+        "imagepath": "images/games/guns-and-bottles-game.png",
+        "link": "/games/guns-bottles/index.html",
+        "description": "Guns and Bottles is an awesome bottle shooting game in which you need to shoot the rotating bottles to get a high score. The gun is also rotating on his spot which makes the game little harder. Tap on the screen in order to hit the bottles. Try to hit 3 bottles continuously to get 5 coins. But try to avoid hitting red bottles. If you hit them the game will over. Collect coins to unlock 12 super guns."
+    },
+    {
+        "gameid": "monsters-up",
+        "title": "Monstores Up",
+        "badge": "Action",
+        "imagepath": "images/games/monsters-up-game.png",
+        "link": "/games/monsters-up/index.html",
+        "description": "Monsters Up is a really cute game for kids as well as adults...tap to jump on platforms and make the balance to get high..There are 5 themes with different monsters and backgrounds in monsters up...with each star collection theme gets changed."
+    },
+    {
+        "gameid": "chess",
+        "title": "Chess",
+        "badge": "Strategy",
+        "imagepath": "images/games/chess.png",
+        "link": "/games/chess/index.html",
+        "description": "Exercise your brain and immerse yourself in one of the world's most popular board games! Play Chess Classic against the computer or your friends on the same device. Select between 6 difficulty levels for beginners and pros, customize your board and try to improve your skills! Are you up for the challenge?"
+    },
+    {
+        "gameid": "onet",
+        "title": "Onet Fruit",
+        "badge": "Arcade",
+        "imagepath": "images/games/onet.png",
+        "link": "/games/onet/index.html",
+        "description": "Onet Fruit Classic is a fun and relaxing pair puzzle solving game.<br>- The goal of the game Onet Fruit Classic is to remove all tiles from the board by matching pairs of identical tiles.<br> - Match tiles with the same fruit and they will disappear. - Each level have a different difficulties."
+    },
+    {
+        "gameid": "ten",
+        "title": "Ten",
+        "badge": "Puzzle",
+        "imagepath": "images/games/ten.png",
+        "link": "/games/ten/index.html",
+        "description": "Will be updated soon..."
+    },
+    {
+        "gameid": "charge-it",
+        "title": "Charge It",
+        "badge": "Strategy",
+        "imagepath": "images/games/charge-it.png",
+        "link": "/games/charge-it/index.html",
+        "description": "Connect all the plugs to a matching socket.Hypercasual game with one finger control. Easy to play, hard to master.<br>Drag the plugs onto the sockets using touch or mouse"
+    },
+    {
+        "gameid": "Desert-Road",
+        "title": "Desert Road",
+        "badge": "Racing",
+        "imagepath": "images/games/Desert-Road.png",
+        "link": "/games/desert-road/index.html",
+        "description": "Desert Road is an endless runner which has high quality graphics.<br>Swipe left or right to change the lane, tap and hold to brake and swipe up to use nitro on mobile.<br>Press left or right key to change the lane, press space key to brake and press up key to use nitro on desktop."
+    },
+    {
+        "gameid": "Fall-Beans",
+        "title": "Fall Beans",
+        "badge": "Arcade",
+        "imagepath": "images/games/Fall-Beans.png",
+        "link": "/games/fall-beans/index.html",
+        "description": "Fun and colorful races on different race areas await you in the Fall Beans game. The aim of the game is to advance in each race without being eliminated.<br>Controls : Use arrow keys to move and space key to jump on desktop."
+    },
+    {
+        "gameid": "House-Paint",
+        "title": "House Paint",
+        "badge": "Arcade",
+        "imagepath": "images/games/House-Paint.png",
+        "link": "/games/house-painter/index.html",
+        "description": "To complete every level, paint all white spaces. Swipe left, right, up and down and fill all the empty spots!"
+    },
+    {
+        "gameid": "Red-imposter",
+        "title": "Red imposter",
+        "badge": "Puzzle",
+        "imagepath": "images/games/Red-imposter.png",
+        "link": "/games/red-impostor-crew/index.html",
+        "description": "Red Imposter vs. Crew is a fun and engaging Action game. Your mission is simple: Execute all living crewmates in the spaceship. Let no one survive.<br>HOW TO PLAY: - Hold and drag to move around the ship, kill the crewmates, and sabotage the objects. - When you kill everyone without getting noticed, the level is completed. - Be careful with crewmate, they may discover you are The Imposter"
+    },
+    {
+        "gameid": "Merge-Cafe",
+        "title": "Merge Cafe",
+        "badge": "Strategy",
+        "imagepath": "images/games/Merge-Cafe.png",
+        "link": "/games/merge-cafe/index.html",
+        "description": "Buy tasty cakes, merge them to unlock new recipes and serve them to cute falling customers!<br>Start as a tea house and expand your range of fresh bakes. Filled with over 18 delectable bakery treats, from luxurious cookies to tasty chocolate cakes!"
+    },
+    {
+        "gameid": "I-Gloria",
+        "title": "I-Gloria",
+        "badge": "Strategy",
+        "imagepath": "images/games/I-Gloria.png",
+        "link": "/games/igloria/index.html",
+        "description": "Will be updated Soon..."
+    },
+    {
+        "gameid": "Unpark-Jam",
+        "title": "Unpark Jam",
+        "badge": "Adventure",
+        "imagepath": "images/games/Unpark-Jam.png",
+        "link": "/games/parking-jam/index.html",
+        "description": "Your goal is to move all car to the exit. Move the other cars out of the way so that you can reach it. To move any car, click and drag it forward or backwards using your mouse."
+    },
+    {
+        "gameid": "Tile-Master",
+        "title": "Tile Master",
+        "badge": "Arcade",
+        "imagepath": "images/games/Tile-Master.png",
+        "link": "/games/tile-master-match/index.html",
+		"description":"Tile Master Match Game requires you to match 3 blocks of the same element, you will pass the level when all tiles are matched. Which is different with Mahjong or other block puzzle game. Tile Master Match consists a large number of levels that get progressively more difficult."
+    }
+]
