@@ -16,14 +16,6 @@
         "description": "Jump into hoops and avoid spikes. Compete with friends who will score more points. Beautiful vector graphics and good sound effects!"
     },
     {
-        "gameid": "dunk-hoop",
-        "title": "Dunk Hoop",
-        "badge": "Strategy",
-        "imagepath": "images/games/Dunk-Hoop.png",
-        "link": "/games/dunk-hoop/index.html",
-        "description": "Jump into hoops and avoid spikes. Compete with friends who will score more points. Beautiful vector graphics and good sound effects!"
-    },
-    {
         "gameid": "road-fight",
         "title": "Road Fight",
         "badge": "Racing",
