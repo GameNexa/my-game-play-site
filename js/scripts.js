@@ -195,7 +195,6 @@
     }
   }
   function showModal(ele) {
-    console.log(ele);
     var title = $(ele).attr("title");
     var imagepath = $(ele).attr("imagepath");
     var description = $(ele).attr("description");
@@ -204,10 +203,9 @@
     $('#dynamicModalDescription').html(description);
     $('#dynamic-modal').modal('show');
   }
-function renderNewGames() {
-    var htmltemplate =
+  var htmltemplate =
     "<div class='col-md-3 col-sm-6 game_GTH'>"
-    + "<article class='entry card box-shadow hover-up newgame'>"
+    + "<article class='entry card box-shadow hover-up'>"
     + "<div class='entry__img-holder card__img-holder'>"
     + "<a href='{{path}}'><img class='entry__img' src='{{imagepath}}' alt='{{title}}' /></a>"
     + "<div class='entry__body card__body'>"
@@ -220,11 +218,63 @@ function renderNewGames() {
     + "</div>"
     + "</div>"
     + "</article> "
-    + "<span class='badge bg-danger badge-shadow badge_game'>New Game</span>"
     + "</div>";
+  var emptybox = "<div class='col-md-3 col-sm-6 game_GTH'></div>"
+  var totalgames = 10;
+  var noofpages = 1;
+  var currentpage = 1;
+  function renderNewGames(pageno, initialload) {
+
     $.getJSON("./js/gameslist.json", function (games) {
+      var size = 10;
       if (games) {
-        $(games).each(function (i, game) {
+        if (initialload) {
+          totalgames = games.length;
+          noofpages = parseInt(totalgames / size);
+          if ((totalgames % size) > 0) {
+            noofpages = noofpages + 1;
+          }
+          $('ul.newgamespagination').html("");
+          if (noofpages > 1) {
+            $('ul.newgamespagination').append('<li class="page-item"><span class="page-link prepage" pageno="1">Previous</span></li>');
+          }
+          for (var igame = 0; igame < noofpages; igame++) {
+            var active = igame == 0 ? 'active' : '';
+            $('ul.newgamespagination').append('<li class="page-item ' + active + '"><a class="page-link" pageno="' + (igame + 1) + '">' + (igame + 1) + '<span class="sr-only">(current)</span></a></li>')
+          }
+          if (noofpages > 1) {
+            $('ul.newgamespagination').append('<li class="page-item"><a class="page-link nextpage" pageno="1">Next</a></li>')
+          }
+        }
+        var firstrecord = pageno == 1 ? 0 : (pageno - 1) * size + 1;
+        currentpage = pageno;
+        $('.page-link').each(function () {
+          if ((!$(this).hasClass('nextpage') && !$(this).hasClass('prepage'))) {
+            $(this).parent().removeClass('active');
+            var pagenoattr = $(this).attr("pageno");
+            var pagenostr = pageno + "";
+            if (pagenoattr == pagenostr) {
+              $(this).parent().addClass('active');
+            }
+          }
+        });
+        if (pageno > 1 && noofpages > 1) {
+          $('.prepage').each(function () { $(this).parent().removeClass('disabled') });
+        }
+        else if (pageno == 1 && noofpages > 1) {
+          $('.prepage').each(function () { $(this).parent().addClass('disabled') });
+        }
+        if (pageno < noofpages && noofpages > 1) {
+          $('.nextpage').each(function () { $(this).parent().removeClass('disabled') });
+        }
+        else if (pageno == noofpages && noofpages > 1) {
+          $('.nextpage').each(function () { $(this).parent().addClass('disabled') });
+        }
+        $('.newgamescontainer').html("");
+        var sliceddata = $.grep(games, function (element, index) {
+          return index > firstrecord - 1 && index < firstrecord + size;
+        });
+        $(sliceddata).each(function (i, game) {
           var gamehtml = htmltemplate;
           gamehtml = gamehtml.replace("{{title}}", game.title);
           gamehtml = gamehtml.replace("{{title}}", game.title);
@@ -235,12 +285,15 @@ function renderNewGames() {
           gamehtml = gamehtml.replace("{{imagepath}}", game.imagepath);
           gamehtml = gamehtml.replace("{{imagepath}}", game.imagepath);
           gamehtml = gamehtml.replace("{{description}}", game.description);
-          gamehtml = gamehtml.replace("{{badgeclass}}",game.badge.toLowerCase())
-          $(gamehtml).find('span').click(function () {
-            showModal(this);
-          })
+          gamehtml = gamehtml.replace("{{badgeclass}}", game.badge.toLowerCase());
           $('.newgamescontainer').append(gamehtml);
         });
+        if (sliceddata.length % 5 != 0) {
+          var emptyboxesneeded = 5 - sliceddata.length % 5;
+          for (var iemptybox = 0; iemptybox < emptyboxesneeded; iemptybox++) {
+            $('.newgamescontainer').append(emptybox);
+          }
+        }
       }
     }).fail(function () {
       console.log("An error has occurred.");
@@ -249,12 +302,30 @@ function renderNewGames() {
   }
   $('.newgamescontainer').on('click', '.badgemodalclick', function () {
     showModal(this);
-  })
+  });
+  $('.newgamespagination').on('click', '.page-link', function () {
+    var pageno = $(this).attr("pageno");
+    if ($(this).hasClass('nextpage')) {
+      $(this).parent().removeClass('disabled');
+      if (currentpage == noofpages) {
+        $(this).parent().addClass('disabled');
+      }
+      pageno = currentpage + 1;
+    }
+    if ($(this).hasClass('prepage')) {
+      $(this).parent().removeClass('disabled');
+      pageno = currentpage - 1;
+      if (pageno == 1) {
+        $(this).parent().addClass('disabled');
+      }
+    }
+    renderNewGames(pageno, false);
+  });
 
 
   $('a[href="#top"]').on('click', function () {
     $('html, body').animate({ scrollTop: 0 }, 1350, "easeInOutQuint");
     return false;
   });
-  renderNewGames();
+  renderNewGames(1, true);
 })(jQuery);
