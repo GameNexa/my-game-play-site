@@ -59,6 +59,7 @@
     white-space: nowrap;
     vertical-align: baseline;
     border-radius: .25rem;
+	cursor: pointer;
 }
 .badge_game {
     position: relative;
