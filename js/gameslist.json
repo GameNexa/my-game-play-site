@@ -7,11 +7,11 @@
         "link": "/games/rcrazy-jump/index.html",
         "description": "Jump on the platforms and avoid enemies in its path. Controlling the mouse or a touch sensor on the phone"
     },
-	{
+    {
         "gameid": "dunk-hoop",
         "title": "Dunk Hoop",
         "badge": "Strategy",
-        "imagepath": "images/games/dunk-hoop.png",
+        "imagepath": "images/games/Dunk-Hoop.png",
         "link": "/games/dunk-hoop/index.html",
         "description": "Jump into hoops and avoid spikes. Compete with friends who will score more points. Beautiful vector graphics and good sound effects!"
     },
@@ -158,5 +158,389 @@
         "imagepath": "images/games/Tile-Master.png",
         "link": "/games/tile-master-match/index.html",
 		"description":"Tile Master Match Game requires you to match 3 blocks of the same element, you will pass the level when all tiles are matched. Which is different with Mahjong or other block puzzle game. Tile Master Match consists a large number of levels that get progressively more difficult."
+    },
+	{
+        "gameid": "Release",
+        "title": "Release",
+        "badge": "Strategy",
+        "imagepath": "images/games/Release.png",
+        "link": "/games/Release/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Shishagon",
+        "title": "Shishagon",
+        "badge": "Arcade",
+        "imagepath": "images/games/Shishagon.png",
+        "link": "/games/Shishagon/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Slices",
+        "title": "Slices",
+        "badge": "Puzzle",
+        "imagepath": "images/games/Slices.png",
+        "link": "/games/Slices/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Spell-School",
+        "title": "Spell School",
+        "badge": "Arcade",
+        "imagepath": "images/games/Spell-School.png",
+        "link": "/games/Spell-School/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Squarea",
+        "title": "Squarea",
+        "badge": "Puzzle",
+        "imagepath": "images/games/Squarea.png",
+        "link": "/games/Squarea/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Take-Off",
+        "title": "Take Off",
+        "badge": "Racing",
+        "imagepath": "images/games/Take-Off.png",
+        "link": "/games/Take-Off/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Tangram",
+        "title": "Tangram",
+        "badge": "Puzzle",
+        "imagepath": "images/games/Tangram.png",
+        "link": "/games/Tangram/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Toops",
+        "title": "Toops",
+        "badge": "Adventure",
+        "imagepath": "images/games/Toops.png",
+        "link": "/games/Toops/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Two-Dots",
+        "title": "Two Dots",
+        "badge": "Strategy",
+        "imagepath": "images/games/Two-Dots.png",
+        "link": "/games/Two-Dots/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Wording",
+        "title": "Wording",
+        "badge": "Arcade",
+        "imagepath": "images/games/Wording.png",
+        "link": "/games/Wording/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Words-Family",
+        "title": "Words Family",
+        "badge": "Arcade",
+        "imagepath": "images/games/Words-Family.png",
+        "link": "/games/Words-Family/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Yummy-Word",
+        "title": "Yummy Word",
+        "badge": "Strategy",
+        "imagepath": "images/games/Yummy-Word.png",
+        "link": "/games/Yummy-Word/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "2K-Shoot",
+        "title": "2K Shoot",
+        "badge": "Puzzle",
+        "imagepath": "images/games/2K-Shoot.png",
+        "link": "/games/2K-Shoot/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Alpha-Balls",
+        "title": "Alpha Balls",
+        "badge": "Adventure",
+        "imagepath": "images/games/Alpha-Balls.png",
+        "link": "/games/Alpha-Balls/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Awaken-The-Ocean",
+        "title": "Awaken The Ocean",
+        "badge": "Strategy",
+        "imagepath": "images/games/Awaken-The-Ocean.png",
+        "link": "/games/Awaken-The-Ocean/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Basket-Slide",
+        "title": "Basket Slide",
+        "badge": "Action",
+        "imagepath": "images/games/Basket-Slide.png",
+        "link": "/games/Basket-Slide/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Mr-Gun",
+        "title": "Mr Gun",
+        "badge": "Puzzle",
+        "imagepath": "images/games/Mr-Gun.png",
+        "link": "/games/Mr-Gun/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Blocky",
+        "title": "Blocky",
+        "badge": "Strategy",
+        "imagepath": "images/games/Blocky.png",
+        "link": "/games/Blocky/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Blue-Block",
+        "title": "Blue Block",
+        "badge": "Puzzle",
+        "imagepath": "images/games/Blue-Block.png",
+        "link": "/games/Blue-Block/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Bouncer",
+        "title": "Bouncer",
+        "badge": "Strategy",
+        "imagepath": "images/games/Bouncer.png",
+        "link": "/games/Bouncer/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Circles",
+        "title": "Circles",
+        "badge": "Adventure",
+        "imagepath": "images/games/Circles.png",
+        "link": "/games/Circles/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Connection",
+        "title": "Connection",
+        "badge": "Puzzle",
+        "imagepath": "images/games/Connection.png",
+        "link": "/games/Connection/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Cube-Jump",
+        "title": "Cube Jump",
+        "badge": "Strategy",
+        "imagepath": "images/games/Cube-Jump.png",
+        "link": "/games/Cube-Jump/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Dino-Bubbles",
+        "title": "Dino Bubbles",
+        "badge": "Arcade",
+        "imagepath": "images/games/Dino-Bubbles.png",
+        "link": "/games/Dino-Bubbles/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Draw-In",
+        "title": "Draw In",
+        "badge": "Strategy",
+        "imagepath": "images/games/Draw-In.png",
+        "link": "/games/Draw-In/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Drifter",
+        "title": "Drifter",
+        "badge": "Racing",
+        "imagepath": "images/games/Drifter.png",
+        "link": "/games/Drifter/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Dunk-Line",
+        "title": "Dunk Line",
+        "badge": "Adventure",
+        "imagepath": "images/games/Dunk-Line.png",
+        "link": "/games/Dunk-Line/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Mr-Gun",
+        "title": "Mr Gun",
+        "badge": "Action",
+        "imagepath": "images/games/Mr-Gun.png",
+        "link": "/games/Mr-Gun/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Dunk-Shot",
+        "title": "Dunk Shot",
+        "badge": "Action",
+        "imagepath": "images/games/Dunk-Shot.png",
+        "link": "/games/Dunk-Sho/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Flappy-Shooter",
+        "title": "Flappy Shooter",
+        "badge": "Strategy",
+        "imagepath": "images/games/Flappy-Shooter.png",
+        "link": "/games/Flappy-Shooter/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Flight-Color",
+        "title": "Flight Color",
+        "badge": "Adventure",
+        "imagepath": "images/games/Flight-Color.png",
+        "link": "/games/Flight-Color/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Flip-The-Gun",
+        "title": "Flip The Gun",
+        "badge": "Action",
+        "imagepath": "images/games/Flip-The-Gun.png",
+        "link": "/games/Flip-The-Gun/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Free-Kick",
+        "title": "Free Kick",
+        "badge": "Adventure",
+        "imagepath": "images/games/Free-Kick.png",
+        "link": "/games/Free-Kick/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Frontline",
+        "title": "Frontline",
+        "badge": "Action",
+        "imagepath": "images/games/Frontline.png",
+        "link": "/games/Frontline/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Fruit-Master",
+        "title": "Fruit Master",
+        "badge": "Action",
+        "imagepath": "images/games/Fruit-Master.png",
+        "link": "/games/Fruit-Master/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Happy-Glass",
+        "title": "Happy Glass",
+        "badge": "Strategy",
+        "imagepath": "images/games/Happy-Glass.png",
+        "link": "/games/Happy-Glass/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Knife-Hit",
+        "title": "Knife Hit",
+        "badge": "Action",
+        "imagepath": "images/games/Knife-Hit.png",
+        "link": "/games/Knife-Hit/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Knot",
+        "title": "Knot",
+        "badge": "Strategy",
+        "imagepath": "images/games/Knot.png",
+        "link": "/games/knot/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Ludo",
+        "title": "Ludo",
+        "badge": "Adventure",
+        "imagepath": "images/games/Ludo.png",
+        "link": "/games/Ludo/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Make5",
+        "title": "Make5",
+        "badge": "Strategy",
+        "imagepath": "images/games/Make5.png",
+        "link": "/games/Make5/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Make7",
+        "title": "Make7",
+        "badge": "Strategy",
+        "imagepath": "images/games/Make7.png",
+        "link": "/games/Make7/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Merge-Fish",
+        "title": "Merge Fish",
+        "badge": "Action",
+        "imagepath": "images/games/Merge-Fish.png",
+        "link": "/games/Merge-Fish/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Merge-Push",
+        "title": "Merge Push",
+        "badge": "Arcade",
+        "imagepath": "images/games/Merge-Push.png",
+        "link": "/games/Merge-Push/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Mini-Golf",
+        "title": "Mini Golf",
+        "badge": "Strategy",
+        "imagepath": "images/games/Mini-Golf.png",
+        "link": "/games/Mini-Golf/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Node",
+        "title": "Node",
+        "badge": "Strategy",
+        "imagepath": "images/games/Node.png",
+        "link": "/games/Node/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Omino",
+        "title": "Omino",
+        "badge": "Arcade",
+        "imagepath": "images/games/Omino.png",
+        "link": "/games/Omino/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "Pattern",
+        "title": "Pattern",
+        "badge": "Puzzle",
+        "imagepath": "images/games/Pattern.png",
+        "link": "/games/Pattern/index.html",
+		"description":"Will be updated soon..."
+    },
+	{
+        "gameid": "pic-up-me",
+        "title": "Pick Me Up",
+        "badge": "Puzzle",
+        "imagepath": "images/games/pic-up-me.png",
+        "link": "/games/pick-me-up/index.html",
+		"description":"Will be updated soon..."
     }
 ]
